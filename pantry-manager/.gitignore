@@ -1,0 +1,24 @@
+# Zależności
+node_modules/
+
+# Buildy produkcyjne (Vite)
+dist/
+build/
+
+# Zmienne środowiskowe
+.env
+.env.local
+.env.*.local
+
+# Logi
+*.log
+npm-debug.log*
+
+# Raporty z testów (przyda się w kolejnym etapie)
+coverage/
+
+# Pliki edytorów i systemu
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
